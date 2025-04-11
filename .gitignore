@@ -1,0 +1,36 @@
+# Binários e objetos
+run/
+obj/
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# Arquivos de build
+build/
+*.log
+*.d
+
+# Arquivos temporários do sistema
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# VS Code e outros editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Make backups
+*.bak
+*.old
+
+# Arquivos de debug
+gmon.out
+
+# Arquivos de testes ou temporários
+*.tmp
+*.test

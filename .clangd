@@ -1,0 +1,8 @@
+CompileFlags:
+  Add: [-Wall, -Wextra, -std=c++17]
+  CompilationDatabase: build
+  Compiler: g++
+  Add: [-isystem, lib/core, -isystem, lib/gui]
+Index:
+  Background: Build
+  StandardLibrary: Yes
