@@ -7,6 +7,7 @@ obj/
 *.a
 *.so
 *.dll
+bin/
 
 # Arquivos de build
 build/
