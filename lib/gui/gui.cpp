@@ -33,52 +33,52 @@ void GUI::loadTextures() {
   glBindTexture( GL_TEXTURE_2D, tList[GRANITO] );
   // carrega a imagem e seta parametros de mapeamento de textura
   //  OT::loadTexture( "../textures/granito.jpg", true );
-  OT::loadTexture( "textures/granito.jpg", true );
+  OT::loadTexture( "../assets/textures/granito.jpg", true );
 
   glBindTexture( GL_TEXTURE_2D, tList[MARMORE] );
   // carrega a imagem e seta parametros de mapeamento de textura
   //  OT::loadTexture( "../textures/marmore.jpg", true );
-  OT::loadTexture( "textures/marmore.jpg", true );
+  OT::loadTexture( "../assets/textures/marmore.jpg", true );
 
   glBindTexture( GL_TEXTURE_2D, tList[LADRILHO] );
   // carrega a imagem e seta parametros de mapeamento de textura
   //  OT::loadTexture( "../textures/ladrilho.jpg", true );
-  OT::loadTexture( "textures/ladrilho.jpg", true );
+  OT::loadTexture( "../assets/textures/ladrilho.jpg", true );
 
   glBindTexture( GL_TEXTURE_2D, tList[REFRI] );
   // carrega a imagem e seta parametros de mapeamento de textura
   //  OT::loadTexture( "../textures/refri.jpg", true );
-  OT::loadTexture( "textures/refri.jpg", true );
+  OT::loadTexture( "../assets/textures/refri.jpg", true );
 
   glBindTexture( GL_TEXTURE_2D, tList[REFRITRANSP] );
   // carrega a imagem e seta parametros de mapeamento de textura
   //  OT::loadTexture( "../textures/refri.png", true );
-  OT::loadTexture( "textures/refri.png", true );
+  OT::loadTexture( "../assets/textures/refri.png", true );
 
   glBindTexture( GL_TEXTURE_2D, tList[SKY] );
   // carrega a imagem e seta parametros de mapeamento de textura
   //  OT::loadTexture( "../textures/sky.jpg", true );
-  OT::loadTexture( "textures/sky.jpg", true );
+  OT::loadTexture( "../assets/textures/sky.jpg", true );
 
   glBindTexture( GL_TEXTURE_2D, tList[KICK_ASS] );
   // carrega a imagem e seta parametros de mapeamento de textura
   //  OT::loadTextureRAW( "../textures/kick_ass.raw", true );
-  OT::loadTextureRAW( "textures/kick_ass.raw", true );
+  OT::loadTextureRAW( "../assets/textures/kick_ass.raw", true );
 
   glBindTexture( GL_TEXTURE_2D, tList[GRID] );
   // carrega a imagem e seta parametros de mapeamento de textura
   //  OT::loadTexture( "../textures/grid.jpg", true );
-  OT::loadTexture( "textures/grid.jpg", true );
+  OT::loadTexture( "../assets/textures/grid.jpg", true );
 
   glBindTexture( GL_TEXTURE_2D, tList[AZULEJO] );
   // carrega a imagem e seta parametros de mapeamento de textura
   //  OT::loadTexture( "../textures/azulejo.jpg", true );
-  OT::loadTexture( "textures/azulejo.jpg", true );
+  OT::loadTexture( "../assets/textures/azulejo.jpg", true );
 
   glBindTexture( GL_TEXTURE_2D, tList[CHECKERS] );
   // carrega a imagem e seta parametros de mapeamento de textura
   //  OT::loadTexture( "../textures/checkers.jpg", true );
-  OT::loadTexture( "textures/checkers.jpg", true );
+  OT::loadTexture( "../assets/textures/checkers.jpg", true );
 }
 
 void GUI::habilitaTextura( bool renderTexture, bool texture_automatic, int texture_mode ) {
