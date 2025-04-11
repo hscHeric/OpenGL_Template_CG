@@ -6,7 +6,7 @@ using namespace std;
 #include "../lib/core/Transform.h"
 #include "../lib/gui/gui.h"
 
-Model3D * esqueleto = new Model3D( "3ds/skeleton.3ds" );
+Model3D * esqueleto = new Model3D( "../assets/models/skeleton.3ds" );
 
 bool coresArquivo         = true;
 bool mostrarCasa          = true;
