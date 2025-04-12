@@ -1,8 +1,36 @@
 CompileFlags:
-  Add: [-Wall, -Wextra, -std=c++17]
+  Add: 
+    - -Wall
+    - -Wextra
+    - -std=c++17
+    - -isystem
+    - lib/core
+    - -isystem
+    - lib/gui
   CompilationDatabase: build
   Compiler: g++
-  Add: [-isystem, lib/core, -isystem, lib/gui]
+
 Index:
   Background: Build
   StandardLibrary: Yes
+
+Checks: >
+  -*,
+  bugprone-*,
+  cert-*,
+  cppcoreguidelines-*,
+  clang-analyzer-*,
+  modernize-*,
+  performance-*,
+  portability-*,
+  readability-*,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -readability-magic-numbers,
+  -modernize-use-trailing-return-type,
+  -readability-else-after-return
+
+WarningsAsErrors: ''
+
+HeaderFilterRegex: '.*'
+
+AnalyzeTemporaryDtors: false
